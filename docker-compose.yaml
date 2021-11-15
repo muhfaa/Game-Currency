@@ -1,0 +1,47 @@
+version: '3'
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: ./app.dockerfile
+    ports:
+      - 7070:7070
+    volumes:
+      - .:/app
+    depends_on:
+      - database
+    container_name: golang-game-currency
+    environment:
+      - 'DB_PORT=3306'
+      - 'DB_HOST=database'
+
+  database:
+    image: mysql:5.7.22
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_USER: root
+      MYSQL_PASSWORD: root
+      MYSQL_DATABASE: game-currency
+    container_name: golang-game-currency-db
+    ports:
+      - 3307:3306
+    volumes:
+      - golang-docker-data:/var/lib/mysql
+  
+  adminer:
+    image: dockette/adminer
+    restart: always
+    hostname: "adminer.local"
+    ports:
+      - 8090:80
+    container_name: golang-docker-adminer
+
+networks:
+  default:
+    external:
+      name: my-project
+
+volumes:
+  golang-docker-data:
+    
