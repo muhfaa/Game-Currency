@@ -9,7 +9,7 @@ In this application I created 4 endpoints, 2 endpoints on the currency side and 
 [Game Currency](https://github.com/muhfaa/Game-Currency/blob/main/index.md)
 
 # Database diagram
-![Database diagram](https://github.com/muhfaa/Game-Currency/blob/a13d95bc1bfe95040f185bd8dab01e36db1ba9a4/ATTN.png)
+![Database diagram](https://github.com/muhfaa/Game-Currency/blob/main/ATTN.png)
 
 # SQL Query
 [SQl query to create table](https://github.com/muhfaa/Game-Currency/blob/dc785ccb8ed4e75bd23eceed9392480e9c5787f5/migrations/1.create_tabel_currency_and_conversion.up.sql)
