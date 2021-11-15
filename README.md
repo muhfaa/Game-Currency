@@ -6,7 +6,7 @@ In this application I use the Hexagonal architecture with Golang as the programm
 
 In this application I created 4 endpoints, 2 endpoints on the currency side and 2 more endpoints on the conversion side. The following is the request structure of this application.
 
-[Game Currency](https://github.com/muhfaa/Game-Currency/blob/main/index.md)
+[Game Currency API](https://github.com/muhfaa/Game-Currency/blob/main/index.md)
 
 # Database diagram
 ![Database diagram](https://github.com/muhfaa/Game-Currency/blob/main/ATTN.png)
