@@ -96,7 +96,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "localhost:7070/v1/conversion?currencyID_From=1&currencyID_To=2&amount=5000",
+							"raw": "localhost:7070/v1/conversion?currencyIDFrom=1&currencyIDTo=2&amount=5000",
 							"host": [
 								"localhost"
 							],
@@ -107,11 +107,11 @@
 							],
 							"query": [
 								{
-									"key": "currencyID_From",
+									"key": "currencyIDFrom",
 									"value": "1"
 								},
 								{
-									"key": "currencyID_To",
+									"key": "currencyIDTo",
 									"value": "2"
 								},
 								{

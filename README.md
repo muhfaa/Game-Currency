@@ -6,6 +6,7 @@ In this application I use the Hexagonal architecture with Golang as the programm
 
 In this application I created 4 endpoints, 2 endpoints on the currency side and 2 more endpoints on the conversion side. The following is the request structure of this application.
 
+# API
 [Game Currency API](https://github.com/muhfaa/Game-Currency/blob/main/index.md)
 
 # Database diagram
@@ -13,6 +14,10 @@ In this application I created 4 endpoints, 2 endpoints on the currency side and 
 
 # SQL Query
 [SQl query to create table](https://github.com/muhfaa/Game-Currency/blob/dc785ccb8ed4e75bd23eceed9392480e9c5787f5/migrations/1.create_tabel_currency_and_conversion.up.sql)
+
+# Postman collaction
+[Postman](https://github.com/muhfaa/Game-Currency/blob/1482240a72326f4c2c778287a37e0d9513aabf61/ATTN.postman_collection.json)
+
 ## Requirement
 
 - go 1.16+
