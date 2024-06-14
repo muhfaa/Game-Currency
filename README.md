@@ -1,3 +1,5 @@
+# Contoh alta
+
 # Game Currency
 
 Game currency is a system used to convert the game currency owned, based on the amount and rate owned by two different currencies.
